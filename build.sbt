@@ -4,14 +4,16 @@ name := "chafed"
 
 version := "0.2"
 
-scalaVersion := "2.9.1"
+version := "0.2-SNAPSHOT"
+
+scalaVersion := "2.9.2"
 
 licenses := Seq("Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "1.7.1" % "test",
   "org.ccil.cowan.tagsoup" % "tagsoup" % "1.2.1",
-  "se.fishtank" %% "css-selectors-scala" % "0.1.1"
+  "se.fishtank" %% "css-selectors-scala" % "0.1.2"
 )
 
 scalacOptions ++= Seq("-deprecation")
